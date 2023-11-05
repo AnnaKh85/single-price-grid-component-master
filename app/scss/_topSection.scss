@@ -1,0 +1,25 @@
+@import 'variables';
+
+.top {
+    height: 270px;
+    &-h1 {
+        color: $cyan-100;
+        font-size: $font-med;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    &-p {
+        color: $brightYellow;
+        font-size: $font-med;
+        font-weight: 400;
+        padding-left: 20px;
+    }
+
+    &-text {
+        color: $grayishBlue;
+        font-size: $font-sm;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
